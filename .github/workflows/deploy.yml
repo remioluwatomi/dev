@@ -43,6 +43,7 @@ jobs:
           cp -r public/* out/ 2>/dev/null || true
           cp .next/server/pages/index.html out/index.html 2>/dev/null || true
           mv out/static out/_next 2>/dev/null || true
+          touch out/ .nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
