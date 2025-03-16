@@ -40,9 +40,10 @@ jobs:
           pnpm build
           mkdir -p out
           cp -r .next/static out/
-          cp -r public/* out/2>dev/null || true
+          cp -r public/* out/ 2>dev/null || true
           cp .next/server/pages/index.html out/index.html 2>dev/null || true
           mv out/static out/_next 2>dev/null true
+          
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
