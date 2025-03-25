@@ -22,7 +22,7 @@ const Experience:React.FC = () => {
     })
 
     return <>
-    {experiences.map((experience, i) => 
+    {experiences.map((experience) => 
         <ExperienceWrapper {...experience} key={experience.company + experience.end + experience.start + experience.title}/>)}
     </>
 }
