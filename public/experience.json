@@ -1,0 +1,38 @@
+[
+    {
+      "start": "Jan 2025",
+      "end": "March 2025",
+      "title": "Backend Engineer Intern",
+      "company": "Hotels.ng",
+      "description": [
+        "Designed and developed a custom application performance monitoring system to track and report performance metrics & errors to output channels, enhancing system observability.",
+        "Automated software delivery by setting up CI/CD pipelines for testing and deployment, improving code integration and reducing release time.",
+        "Developed an Email Verification system and added new unit tests on existing APIs to enhance security.",
+        "Deployed backend service on AWS and configured Nginx as a reverse proxy, improving backend performance."
+      ]
+    },
+    {
+      "start": "Aug 2024",
+      "end": "Dec 2024",
+      "title": "Full Stack Developer Intern",
+      "company": "CGS - OAU",
+      "description": [
+        "Helped build interactive UIs and dashboards, improving user experience.",
+        "Integrated user analytics, allowing the team to track and analyze user behavior to identify opportunities for further products.",
+        "Developed RESTful backend services to compute dynamic content, enabling faster data retrieval."
+      ]
+    },
+    {
+      "start": "Feb 2023",
+      "end": "Oct 2023",
+      "title": "Full Stack Developer",
+      "company": "Realms",
+      "description": [
+        "Co-led a team of 3 developers, building end-to-end client portals for account management, including KYC (Know Your Customer) for secure user verification, as well as features for deposits, withdrawals, and transaction history.",
+        "Implemented Redis caching for transaction history, deposits, and withdrawals, improving response times for users and significantly reducing database queries and API call overhead.",
+        "Developed and maintained RESTful endpoints for market data retrieval, integrating third-party APIs to deliver live cryptocurrency rates in real-time.",
+        "Developed a payment dispute feature in the admin dashboard that allows admins to verify, approve, or reject disputes efficiently."
+      ]
+    }
+  ]
+  
