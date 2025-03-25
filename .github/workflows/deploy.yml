@@ -41,11 +41,10 @@ jobs:
       - name: Build with Next.js and Generate Static files
         run:  |
           pnpm build
-          mkdir -p out
-          cp -r .next/static out/
+          mkdir -p out/_next
+          cp -r .next/static out/_next
           cp -r public/* out/ 2>/dev/null || true
           cp .next/server/pages/index.html out/index.html 2>/dev/null || true
-          mv out/static out/_next 2>/dev/null || true
           touch out/ .nojekyll
 
       - name: Upload artifact
