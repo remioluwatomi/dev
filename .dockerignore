@@ -1,0 +1,7 @@
+node_modules
+.pnpm
+.git
+.gitignore
+dist
+.vscode
+.env
