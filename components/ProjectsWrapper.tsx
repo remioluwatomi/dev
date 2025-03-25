@@ -21,7 +21,7 @@ const ProjectWrapper: React.FC<ProjectsWrapperProps> = ({
             <div className="project-links-box flex justify-left">
                 {
                     projectLinks.map((projectLink, i) => 
-                        <a href={projectLink.url} className="project-link" target="_blank">
+                        <a href={projectLink.url} key={projectLink.url+ projectLink.platform + `${i}`} className="project-link" target="_blank">
                             {projectLink.platform === "Github" ? <GithubIcon /> : <LinkIcon />}
                         </a>)
                 }
@@ -32,8 +32,8 @@ const ProjectWrapper: React.FC<ProjectsWrapperProps> = ({
             </p>
 
             <ul className="project-stacks flex gap-2">
-                {stack.map(techStack =>
-                    <li className="tech-stack">
+                {stack.map((techStack, i) =>
+                    <li key={`${techStack} + ${i}`} className="tech-stack">
                         {techStack}
                     </li>
                 )}

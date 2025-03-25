@@ -10,7 +10,7 @@ const Introduction:React.FC = () => {
 
 <div className="about-me">
   
-  <p>Hi there, I'm Remi Oluwatomi! 👋</p>
+  <p>Hi there, I&apos;m Remi Oluwatomi! 👋</p>
   <p>I am a 
     <span className="bold-text"> Software Engineer </span>
     {/* and  */}
