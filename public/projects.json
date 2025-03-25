@@ -1,0 +1,59 @@
+[
+    {
+        "title": "TelexAPM",
+        "description": "🌟 Telex APM is a Global Error Tracking & Performance Monitoring for .NET programs. It tracks and reports errors & performance automatically. 🚀",
+        "stack": ["C#" ,"ASP.NET Core", "XUnit"],
+        "links": [{
+            "url": "https://github.com/remioluwatomi/telexAPM-for-dotnet",
+            "platform": "Github" 
+        }]
+    },
+
+    {
+        "title": "TRDXM Investment",
+        "description": "An Investment 💹 platform for easy and efficient trading and investing (500 - 1000 active users). ",
+        "stack": ["Node.js", "Express.js", "Pug", "TypeORM", "PostgreSQL", "AWS"],
+        "links": [
+            {
+                "url": "",
+                "platform": "Github"
+            }, 
+            {
+                "url": "",
+                "platform": "Website"
+            } 
+        ]
+    },
+
+    {
+        "title": "Car Rental",
+        "description": "This platform enables users to search for available cars, book rentals and mange reservation.",
+        "stack": ["React", "TailwaindCSS", "JavaScript"],
+        "links": [
+            {
+                "url": "",
+                "platform": "Github" 
+            },
+            {
+                "url": "",
+                "platform": "Website" 
+            }
+        ]
+    },
+
+    {
+        "title": "Cryptex",
+        "description": "Coin Cryptex is the easiest, safest and fastest way to buy & sell crypto asset exchange.",
+        "stack": ["SCSS", "JavaScript", "Web3"],
+        "links": [
+            {
+                "url": "https://github.com/remioluwatomi/cryptex",
+                "platform": "Github" 
+            },
+            {
+                "url": "https://remioluwatomi.github.io/cryptex/",
+                "platform": "Website" 
+            }
+        ]
+    }
+]
