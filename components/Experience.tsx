@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import ExperienceWrapper, { ExperienceWrapperProps } from "./ExperienceWrapper"
 import fetchData from "@/utils/fetchData"
+import isGithubPage from "@/utils/isGIthubPage"
 
 
 const Experience:React.FC = () => {
@@ -19,7 +20,7 @@ const Experience:React.FC = () => {
         }
 
         fetchExperience();
-    })
+    }, [])
 
     return <>
     {experiences.map((experience) => 
