@@ -1,10 +1,11 @@
 import type { NextConfig } from "next";
+import { addBasePath } from "./utils/isGIthubPage";
 
 const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
   output: "export",
-  basePath: "/dev"
+  basePath: addBasePath()
 };
 
 export default nextConfig;

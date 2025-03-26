@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import ExperienceWrapper, { ExperienceWrapperProps } from "./ExperienceWrapper"
 import fetchData from "@/utils/fetchData"
 
-
 const Experience:React.FC = () => {
     const [experiences, setExperiences] = useState<ExperienceWrapperProps[]>([])
 
@@ -19,7 +18,7 @@ const Experience:React.FC = () => {
         }
 
         fetchExperience();
-    })
+    }, [])
 
     return <>
     {experiences.map((experience) => 

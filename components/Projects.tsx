@@ -18,7 +18,7 @@ const Projects:React.FC = () => {
         }
 
         fetchProjects()
-    })
+    }, [])
 
     return <>
         {projects.map(project => 
