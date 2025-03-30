@@ -17,8 +17,8 @@ const ProjectWrapper: React.FC<ProjectsWrapperProps> = ({
     title, description, stack, links:projectLinks
 }: ProjectsWrapperProps)=>{
     return <>
-        <div className="project-box">
-            <div className="project-links-box flex justify-left">
+        <div className="project-box bg-[#16181b] px-4 py-4 mb-4 md:mb-0 hover:outline-1 hover:outline-dashed hover:outline-gray-500">
+            <div className="project-links-box flex justify-end gap-3">
                 {
                     projectLinks.map((projectLink, i) => 
                         <a href={projectLink.url} key={projectLink.url+ projectLink.platform + `${i}`} className="project-link" target="_blank">
@@ -26,14 +26,14 @@ const ProjectWrapper: React.FC<ProjectsWrapperProps> = ({
                         </a>)
                 }
             </div>
-            <h3 className="project-title">{title}</h3>
-            <p className="project-description">
+            <h3 className="project-title text-[1.15rem] font-[600] text-170">{title}</h3>
+            <p className="project-description text-[.93rem] my-2">
                 {description}
             </p>
 
-            <ul className="project-stacks flex gap-2">
+            <ul className="project-stacks mt-4 flex gap-2 flex-wrap">
                 {stack.map((techStack, i) =>
-                    <li key={`${techStack} + ${i}`} className="tech-stack">
+                    <li key={`${techStack} + ${i}`} className="tech-stack text-[.85rem] rounded-[.3rem] bg-[#24272b] py-2 px-4">
                         {techStack}
                     </li>
                 )}
