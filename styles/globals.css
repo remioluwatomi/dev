@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: var(--background);
-  background-image: url("/grain-bg.png"); 
+  background-color: var(--background); 
+  background-image: var(--bg-url); 
   color: var(--foreground);
   font-family: Poppins, sans-serif;
   scroll-behavior: smooth;
