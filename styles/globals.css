@@ -1,26 +1,42 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #0e1012;
+  --foreground: #fff;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
+  background-image: url("/grain-bg.png"); 
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  color: rgb(119, 119, 119);
+}
+
+.text-170, .skill-class, .bold-text, .desktop-nav-link:hover .nav-link-text {
+    color: rgb(170, 170, 170)
+}
+
+.svg-icon:hover {
+  fill: rgb(170, 170, 170);
+}
+
+.svg-icon {
+  transition: all 0.3s ease-in-out;
+}
+
+.desktop-nav-link:hover .nav-link-hl{
+  width: 3rem;
+}
+
+.hide-scrollbar{
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar{
+  display: none;
 }

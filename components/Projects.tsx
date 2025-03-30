@@ -21,9 +21,11 @@ const Projects:React.FC = () => {
     }, [])
 
     return <>
+        <div className="project-container md:grid md:grid-cols-2 gap-4 py-4">
         {projects.map(project => 
             <ProjectWrapper {...project} key={project.description + project.links + project.title}/>)
         }
+        </div>
     </>
 }
 
