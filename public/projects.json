@@ -26,6 +26,22 @@
     },
 
     {
+        "title": "Minimalist E-commerce",
+        "description": "A minimalist online store for simple and easy shopping experience",
+        "stack": ["Typescript", "React", "Supabase", "Vite", "Redux"],
+        "links": [
+            {
+                "url": "https://github.com/remioluwatomi/minimalist-ecommerce/",
+                "platform": "Github"
+            },
+            {
+                "url": "https://minimalist-ecommerce-eight.vercel.app/",
+                "platform": "Website"
+            }
+        ]
+    },
+
+    {
         "title": "Car Rental",
         "description": "This platform enables users to search for available cars, book rentals and mange reservation.",
         "stack": ["React", "TailwaindCSS", "JavaScript"],
