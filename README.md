@@ -19,3 +19,6 @@ It showcases my work, skills, and provides access to my resume.
 ## ⚙️ Deployment
 
 The site is automatically deployed to **GitHub Pages** via a custom **GitHub Actions** workflow.
+**URL:** [https://remioluwatomi.github.io/dev/](https://remioluwatomi.github.io/dev/)
+
+
