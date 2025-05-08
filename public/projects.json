@@ -47,11 +47,11 @@
         "stack": ["React", "TailwaindCSS", "JavaScript"],
         "links": [
             {
-                "url": "",
+                "url": "https://github.com/remioluwatomi/car-rental",
                 "platform": "Github" 
             },
             {
-                "url": "",
+                "url": "https://car-rental-tawny-eight.vercel.app/",
                 "platform": "Website" 
             }
         ]
