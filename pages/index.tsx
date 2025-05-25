@@ -21,7 +21,7 @@ export default function Home() {
             <nav className="desktop-nav-links hidden lg:flex flex-col lg:gap-y-[.4rem] lg:mt-8">
               <NavLink linkName="experience" refTarget={experienceRef} />
               <NavLink linkName="projects" refTarget={projectRef}/>
-              <NavLink linkName="résumé" href="https://drive.google.com/file/d/1zBbS73OAx8CToH6C1scvBuhKzitp2Kgs/view" />
+              <NavLink linkName="résumé" href="https://drive.google.com/file/d/1l0PzgBOKR4bQ2GxtFvR9yYnvObLWWIj7/view" />
             </nav>
 
             <Socials className="lg:items-end flex-grow" />
